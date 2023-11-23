@@ -1,9 +1,10 @@
+@import url('https://fonts.cdnfonts.com/css/trajan-pro');
 @font-face {
     font-family: "TrajanPro";
     src: url(/fonts/TrajanPro3-ExtraLight2.ttf);   
 }
 
-@import url('https://fonts.cdnfonts.com/css/trajan-pro');
+
 .EN-languageswitch{
     position: absolute;
     top:0%;
