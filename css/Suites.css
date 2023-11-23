@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "GreekElegance";
+    src: url(/fonts/GREEK-ELEGANCE.otf);   
+}
+
 .header-area_suites{
     position:absolute;
     left:0;
@@ -110,7 +115,7 @@
    .slider_bg_2{background-image:url(../img/banner/banner4.jpg)} 
    .slider_bg_3{background-image: url(../img/banner/banner3.jpg);}
    .slider_area_Oaksuite .single_slider{height:70vh;background-size:cover;
-    background-repeat:no-repeat}.slider_area_Oaksuite .single_slider .slider_text h3{color:#ffffff;font-family:"TrajanPro",sans-serif;font-size:100px;text-transform:capitalize;letter-spacing:2px;font-weight:400;margin-bottom:4px; cursor: pointer;}
+    background-repeat:no-repeat}.slider_area_Oaksuite .single_slider .slider_text h3{color:#ffffff;font-family:"GreekElegance",sans-serif;font-size:100px;text-transform:capitalize;letter-spacing:2px;font-weight:400;margin-bottom:4px; cursor: pointer;}
    
     h3 span{
         transition: 0.5s;

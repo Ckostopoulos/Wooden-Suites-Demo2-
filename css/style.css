@@ -5,6 +5,10 @@
     src: url(/fonts/TrajanPro3-ExtraLight2.ttf);   
 }
 
+@font-face {
+    font-family: "GreekElegance";
+    src: url(/fonts/GREEK-ELEGANCE.otf);   
+}
 
 .EN-languageswitch{
     position: absolute;
