@@ -6,10 +6,12 @@
 }
 
 @font-face {
-    font-family: "GreekElegance";
-    src: url(/fonts/GREEK-ELEGANCE.otf);   
+  font-family: 'greek_eleganceregular';
+  src: url('greek-elegance-webfont.woff2') format('woff2'),
+       url('greek-elegance-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
 }
-
 .EN-languageswitch{
     position: absolute;
     top:0%;
