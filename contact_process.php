@@ -18,6 +18,36 @@
     $logo = 'img';
     $link = '#';
 
+	
+	require 'vendor/autoload.php';
+
+use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\SMTP;
+
+$mail = new PHPMailer(true);
+
+// $mail->SMTPDebug = SMTP::DEBUG_SERVER;
+
+$mail->isSMTP();
+$mail->SMTPAuth = true;
+
+$mail->Host = "smtp.gmail.com";
+$mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
+$mail->Port = 587;
+
+$mail->Username = "chriskostopoulos4@gmail.com";
+$mail->Password = "password";
+
+$mail->setFrom($email, $name);
+$mail->addAddress("chriskostopoulos4@gmail.com", "Dave");
+
+$mail->Subject = $subject;
+$mail->Body = $message;
+
+$mail->send();
+
+header("Location: sent.html");
+
 	$body = "<!DOCTYPE html><html lang='en'><head><meta charset='UTF-8'><title>Express Mail</title></head><body>";
 	$body .= "<table style='width: 100%;'>";
 	$body .= "<thead style='text-align: center;'><tr><td style='border:none;' colspan='2'>";
