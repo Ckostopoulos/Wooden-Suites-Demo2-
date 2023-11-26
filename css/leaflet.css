@@ -85,7 +85,7 @@
 	width: 0;
 	height: 0;
 	box-sizing: border-box;
-	z-index: 800;
+	z-index: 10;
 	}
 
 .leaflet-pane         { z-index: 400; }
