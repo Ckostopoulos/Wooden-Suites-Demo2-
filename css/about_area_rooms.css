@@ -97,9 +97,68 @@ max-width: 100%;
     margin-top:40px;
     margin-left:10px
 }
+/*-------------Oak Suite IMAGES START -----------------------*/
 .about_bg_1{
-    background-image:url(../img/banner/about_banner.png)
+    background-image:url(../img/Oak_Suite/Oak\ Suite\ \(Hotel\,\ Thessaloniki\,\ Rooms\)\ 01.jpg)
 }
+.about_bg_2{
+    background-image:url(../img/Oak_Suite/Oak_Suite_Hotel_Thessaloniki_10.jpg)
+}
+.about_bg_3{
+    background-image:url(../img/Oak_Suite/Oak_Suite_Hotel_Thessaloniki_20.jpg)
+}
+.about_bg_4{
+    background-image:url(../img/Oak_Suite/Oak_Suite_Hotel_Thessaloniki_32.jpg)
+}
+.about_bg_5{
+    background-image:url(../img/Oak_Suite/Oak_Suite_Hotel_Thessaloniki_40.jpg)
+}
+.about_bg_6{
+    background-image:url(../img/Oak_Suite/Oak_Suite_Hotel_Thessaloniki_50.jpg)
+}
+.about_bg_7{
+    background-image:url(../img/Oak_Suite/Oak_Suite_Hotel_Thessaloniki_61.jpg)
+}
+
+/*----------Oak Suite IMAGES END ---------------------------*/
+.Aspen_Suite_padding_container{
+    padding-top: 20px;
+}
+/*----------Aspen Suite IMAGES START ---------------------------*/
+.about_bg_10{
+    background-image:url(../img/Aspen_Suite/Aspen_Suite_1.jpg)
+}
+.about_bg_11{
+    background-image:url(../img/Aspen_Suite/Aspen_Suite_2.jpg)
+}
+.about_bg_12{
+    background-image:url(../img/Aspen_Suite/Aspen_Suite_3.jpg)
+}
+.about_bg_13{
+    background-image:url(../img/Aspen_Suite/Aspen_Suite_42.jpg)
+}
+.about_bg_14{
+    background-image:url(../img/Aspen_Suite/Aspen_Suite_5.jpg)
+}
+.about_bg_15{
+    background-image:url(../img/Aspen_Suite/Aspen_Suite_6.jpg)
+}
+.about_bg_16{
+    background-image:url(../img/Aspen_Suite/Aspen_Suite_7.jpg)
+}
+.about_bg_17{
+    background-image:url(../img/Aspen_Suite/Aspen_Suite_8.jpg)
+}
+.about_bg_18{
+    background-image:url(../img/Aspen_Suite/Aspen_Suite_9.jpg)
+}
+.about_bg_19{
+    background-image:url(../img/Aspen_Suite/Aspen_Suite_11.jpg)
+}
+.about_bg_20{
+    background-image:url(../img/Aspen_Suite/Aspen\ Suite\ 10.jpg)
+}
+/*----------Aspen Suite IMAGES END ---------------------------*/
 .about_info_area{
     padding-left:387px;
     margin-top:50px
