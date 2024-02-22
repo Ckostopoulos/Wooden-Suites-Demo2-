@@ -10,13 +10,6 @@
 	src: url(/fonts/TrajanPro3-ExtraLight2.ttf);
 }
 
-@font-face {
-	font-family: 'greek_eleganceregular';
-	src: url('https://ckostopoulos.github.io/Wooden-Suites-Demo2-/fonts/themify.woff?-fvbane') format('woff2'),
-		url('C:/Users/Ckostopoulos/Documents/Wooden Suites/Website/Temp01/fonts/themify') format('woff');
-	font-weight: normal;
-	font-style: normal;
-}
 
 @font-face {
   font-family: 'greek_elegance';
@@ -1976,7 +1969,7 @@ h3 {
 }
 
 .bradcam_area h3 {
-  font-family:'TrajanPro',sans-serif;
+  font-family:'greek_elegance';
 	font-size: 60px;
 	color: #fff;
 	font-weight: 400;
