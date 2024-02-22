@@ -159,6 +159,39 @@ max-width: 100%;
     background-image:url(../img/Aspen_Suite/Aspen\ Suite\ 10.jpg)
 }
 /*----------Aspen Suite IMAGES END ---------------------------*/
+/*----------Redwood Suite IMAGES START ---------------------------*/
+.about_bg_30{
+    background-image:url(../img/Redwood_Suite/WEB/Redwood_WC_1.jpg)
+}
+.about_bg_31{
+    background-image:url(../img/Redwood_Suite/WEB/Redwood_1_3.jpg)
+}
+.about_bg_32{
+    background-image:url(../img/Redwood_Suite/WEB/Redwood_2.jpg)
+}
+.about_bg_33{
+    background-image:url(../img/Redwood_Suite/WEB/Redwood_3.jpg)
+}
+.about_bg_34{
+    background-image:url(../img/Redwood_Suite/WEB/Redwood_4.jpg)
+}
+.about_bg_35{
+    background-image:url(../img/Redwood_Suite/WEB/Redwood_5.jpg)
+}
+.about_bg_36{
+    background-image:url(../img/Redwood_Suite/WEB/Redwood_6.jpg)
+}
+.about_bg_37{
+    background-image:url(../img/Redwood_Suite/WEB/Redwood_7.jpg)
+}
+.about_bg_38{
+    background-image:url(../img/Redwood_Suite/WEB/Redwood_82.jpg)
+}
+.about_bg_39{
+    background-image:url(../img/Redwood_Suite/WEB/Redwood_9.jpg)
+}
+/*----------Redwood Suite IMAGES END ---------------------------*/
+
 .about_info_area{
     padding-left:387px;
     margin-top:50px
