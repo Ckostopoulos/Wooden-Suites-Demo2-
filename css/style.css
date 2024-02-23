@@ -2,7 +2,17 @@
 @import url("https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700,800,900&display=swap");
 @import url('https://fonts.cdnfonts.com/css/trajan-pro');
 @import url('https://fonts.gstatic.com/s/gfsdidot/v15/Jqzh5TybZ9vZMWFssvwSE-3H.woff2');
+@import url('https://fonts.cdnfonts.com/css/trajan-pro');
 
+@font-face {
+    font-family: 'Trajan Pro 3';
+    src: local('Trajan Pro 3 Extra Light'), local('Trajan-Pro-3-Extra-Light'),
+        url('TrajanPro3ExtraLight.woff2') format('woff2'),
+        url('TrajanPro3ExtraLight.woff') format('woff'),
+        url('TrajanPro3ExtraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+  }                
 
 
 @font-face {
@@ -1969,7 +1979,8 @@ h3 {
 }
 
 .bradcam_area h3 {
-  font-family:'greek_elegance';
+	font-family: 'Trajan Pro 3';
+                                               
 	font-size: 60px;
 	color: #fff;
 	font-weight: 400;
