@@ -1957,7 +1957,7 @@ h3 {
 }
 
 .breadcam_bg_1 {
-	background-image: url(../img/banner/Rooms\ Interior\ Hotel\ Thessaloniki\ 2.jpg)
+	background-image: url(../img/banner/WEB/Rooms_Interior_Hotel_Thessaloniki_2.jpg)
 }
 
 .breadcam_bg_2 {
@@ -1980,7 +1980,7 @@ h3 {
 
 .bradcam_area h3 {
 	font-family: 'Trajan Pro 3';
-                                               
+    font-weight: lighter;                                           
 	font-size: 60px;
 	color: #fff;
 	font-weight: 400;
