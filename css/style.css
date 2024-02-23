@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700,800,900&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700,800,900&display=swap");
+@import url('https://fonts.cdnfonts.com/css/trajan-pro');
+@import url('https://fonts.gstatic.com/s/gfsdidot/v15/Jqzh5TybZ9vZMWFssvwSE-3H.woff2');
 
 
 @font-face {
@@ -3464,7 +3466,7 @@ h6 {
 .single-blog .tag {
 	text-align: left;
 	display: inline-block;
-	
+	float: left;
 	font-size: 13px;
 	font-weight: 300;
 	margin-right: 22px;
