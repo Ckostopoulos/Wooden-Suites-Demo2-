@@ -44,6 +44,51 @@
 
     <!-- <link rel="stylesheet" href="css/responsive.css"> -->
 
+    <style>
+
+        .contact_container{
+            max-width: 400px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .contact_container h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .contact_container label {
+            font-weight: bold;
+        }
+        .contact_container input[type="text"],
+        .contact_container input[type="email"],
+        .contact_container textarea {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        .contact_container textarea {
+            height: 100px;
+            resize: vertical;
+        }
+        .contact_container input[type="submit"] {
+            background-color: #009DFF;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            width: 100%;
+        }
+        .contact_container input[type="submit"]:hover {
+            background-color: black;
+        }
+    </style>
+
 
 </head>
 
@@ -157,9 +202,23 @@
     </div>
     <!-- bradcam_area_end / .contact-section #map{height: 400px; z-index:0;}.contact-section .map-visible #map{display: block;}-->
 
-   
+    <div class="contact_container">
+        <h2>Contact Us</h2>
+        <form action="send_email.php" method="post">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required onblur="this.placeholder = 'Enter Name'" placeholder = 'Enter Name'><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required onblur="this.placeholder = 'Enter Email'" placeholder = 'Enter Email'><br>
+            <label for="subject">Subject:</label><br>
+            <input type="text" id="subject" name="subject" required onblur="this.placeholder = 'Enter Subject'" placeholder = 'Enter Subject'><br>
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4" required onblur="this.placeholder = 'Enter Message'" placeholder = 'Enter Message'></textarea><br><br>
+            <input type="submit" value="SEND">
+        </form>
+        
+    </div>
 
-    <!-- ================ contact section start ================= -->
+    <!-- ================ contact section start ================= 
     <section class="contact-section">
             <div class="container">
                 <div class="d-none d-sm-block mb-5 pb-4">
@@ -172,7 +231,7 @@
                         <h2 class="contact-title">Get in Touch</h2>
                     </div>
                     <div class="col-lg-8">
-                        <form class="form-contact contact_form" action="contact_process.php" method="post" id="contactForm" novalidate="novalidate">
+                        <form class="form-contact contact_form" action="index.php" method="post" id="contactForm" novalidate="novalidate">
                             <div class="row">
                                 <div class="col-12">
                                     <div class="form-group">
@@ -202,19 +261,6 @@
                     </div>
                     <div class="col-lg-3 offset-lg-1">
                         <div class="media contact-info">
-                            <!--<span class="contact-info__icon"><i class="ti-home"></i></span>
-                            <div class="media-body">
-                                <h3>Buttonwood, California.</h3>
-                                <p>Rosemead, CA 91770</p>
-                            </div>
-                        </div>
-                        <div class="media contact-info">
-                            <span class="contact-info__icon"><i class="ti-tablet"></i></span>
-                            <div class="media-body">
-                                <h3>+1 253 565 2365</h3>
-                                <p>Mon to Fri 9am to 6pm</p>
-                            </div>
-                        </div>-->
                         <div class="media contact-info">
                             <span class="contact-info__icon"><i class="ti-email"></i></span>
                             <div class="media-body">
@@ -226,7 +272,7 @@
                 </div>
             </div>
         </section>
-    <!-- ================ contact section end ================= -->
+     ================ contact section end ================= -->
 
     <!-- footer -->
     <footer class="footer">
@@ -270,8 +316,6 @@
                                 <li><a href="https://www.google.com/maps/place/Vyzantiou+17,+Thessaloniki+546+40/@40.6169256,22.9553766,17z/data=!3m1!4b1!4m6!3m5!1s0x14a838e16791f211:0xb4895757b56b148c!8m2!3d40.6169216!4d22.9579515!16s%2Fg%2F11qqpnlp17?authuser=0&entry=ttu" class="line-button">Oak Suite</a></li>
                                 <li><a href="https://www.google.com/maps/place/Vyzantiou+17,+Thessaloniki+546+40/@40.6169256,22.9553766,17z/data=!3m1!4b1!4m6!3m5!1s0x14a838e16791f211:0xb4895757b56b148c!8m2!3d40.6169216!4d22.9579515!16s%2Fg%2F11qqpnlp17?authuser=0&entry=ttu" class="line-button">Aspen Suite</a></li>
                                 <li><a href="https://www.google.com/maps/place/Chimarras+5,+Thessaloniki+546+44/@40.6090615,22.9649204,17z/data=!3m1!4b1!4m6!3m5!1s0x14a838dd2ed338c1:0x372c413d626efddd!8m2!3d40.6090615!4d22.9649204!16s%2Fg%2F11lm1c3rh5?entry=ttu" class="line-button">Redwood Suite</a></li>
-                               <!-- <li><a href="https://www.google.com/maps/place/Mantinias+13,+Thessaloniki+546+42/@40.6091473,22.9612272,17z/data=!3m1!4b1!4m6!3m5!1s0x14a838dc490a7981:0x7629e79a611ba8cb!8m2!3d40.6091473!4d22.9612272!16s%2Fg%2F11c21qx5z4?entry=ttu" class="line-button">Bamboo Suite</a></li>
-                                <li><a href="https://www.google.com/maps/place/Mantinias+13,+Thessaloniki+546+42/@40.6091473,22.9612272,17z/data=!3m1!4b1!4m6!3m5!1s0x14a838dc490a7981:0x7629e79a611ba8cb!8m2!3d40.6091473!4d22.9612272!16s%2Fg%2F11c21qx5z4?entry=ttu" class="line-button">Olive Suite</a></li> -->
                             </ul>
                         </div>
                     </div>
