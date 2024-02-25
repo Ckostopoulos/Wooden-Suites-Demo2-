@@ -1,8 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700,800,900&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700,800,900&display=swap");
 @import url('https://fonts.cdnfonts.com/css/trajan-pro');
-@import url('https://fonts.gstatic.com/s/gfsdidot/v15/Jqzh5TybZ9vZMWFssvwSE-3H.woff2');
-
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap');
 
 @font-face {
     font-family: 'Trajan Pro 3';
@@ -17,17 +16,24 @@
 
 @font-face {
 	font-family: "TrajanPro";
-	src: url(/fonts/TrajanPro3-ExtraLight2.ttf);
+	src: url('C:/Users/Ckostopoulos/Documents/Wooden Suites/Website/Temp01/fonts/TrajanPro3-ExtraLight2.ttf');
 }
 
 
 @font-face {
   font-family: 'greek_elegance';
 
-  src: url(/fonts/GREEK-ELEGANCE.otf);
-  font-weight: normal;
+  src: url('C:/Users/Ckostopoulos/Documents/Wooden Suites/Website/Temp01/fonts/GREEK-ELEGANCE.otf') format('opentype'),
+   url('C:/Users/Ckostopoulos/Documents/Wooden Suites/Website/Temp01/fonts/GREEK-ELEGANCE.ttf') format('truetype');
+}
+
+.cinzel {
+  font-family: "Cinzel", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
   font-style: normal;
 }
+
 
 .EN-languageswitch {
 	position: absolute;
@@ -1979,7 +1985,7 @@ h3 {
 }
 
 .bradcam_area h3 {
-	font-family: 'Trajan Pro 3';                                 
+	font-family: "Cinzel", serif;                           
 	font-size: 60px;
 	color: #fff;
 	font-weight: 400;
