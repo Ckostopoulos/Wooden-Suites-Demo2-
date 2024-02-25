@@ -47,7 +47,7 @@
     <style>
 
         .contact_container{
-            max-width: 400px;
+            max-width: 1000px;
             margin: 50px auto;
             padding: 20px;
             background-color: #fff;
@@ -204,6 +204,11 @@
 
     <div class="contact_container">
         <h2>Contact Us</h2>
+
+        <div class="d-none d-sm-block mb-5 pb-4">
+            <div class="map_contact" id="map" tabindex="0" style="position: relative; height:400px; outline-style: none;"></div>
+        </div>
+        
         <form action="send_email.php" method="post">
             <label for="name">Name:</label><br>
             <input type="text" id="name" name="name" required onblur="this.placeholder = 'Enter Name'" placeholder = 'Enter Name'><br>
