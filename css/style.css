@@ -7,9 +7,9 @@
 @font-face {
     font-family: 'Trajan Pro 3';
     src: local('Trajan Pro 3 Extra Light'), local('Trajan-Pro-3-Extra-Light'),
-        url('TrajanPro3ExtraLight.woff2') format('woff2'),
-        url('TrajanPro3ExtraLight.woff') format('woff'),
-        url('TrajanPro3ExtraLight.ttf') format('truetype');
+        url('C:/Users/Ckostopoulos/Documents/Wooden Suites/Website/Temp01/fonts/TrajanPro3ExtraLight.woff2') format('woff2'),
+        url('C:/Users/Ckostopoulos/Documents/Wooden Suites/Website/Temp01/fonts/TrajanPro3ExtraLight.woff') format('woff'),
+        url('C:/Users/Ckostopoulos/Documents/Wooden Suites/Website/Temp01/fonts/TrajanPro3ExtraLight.ttf') format('truetype');
     font-weight:lighter;
     font-style: normal;
   }                
@@ -1979,9 +1979,7 @@ h3 {
 }
 
 .bradcam_area h3 {
-	font-family: 'Trajan Pro 3',serif;
-	font-style: normal;
-	font-weight: 200;                                   
+	font-family: 'Trajan Pro 3';                                 
 	font-size: 60px;
 	color: #fff;
 	font-weight: 400;
