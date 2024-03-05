@@ -21,14 +21,14 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $mail->isSMTP();
         $mail->Host = 'smtp.gmail.com';
         $mail->SMTPAuth = true;
-        $mail->Username = 'thewoodensuites@gmail.com';
-        $mail->Password = 'joakxfhreycyytbl';
+        $mail->Username = 'contactwoodensuites@gmail.com';
+        $mail->Password = 'vbmwjlyjlghxjjxi';
         $mail->SMTPSecure = 'tls';
         $mail->Port = 587;
 
         //Recipients
         $mail->setFrom($email, $name);
-        $mail->addAddress('thewoodensuites@gmail.com'); // Add a recipient
+        $mail->addAddress('contactwoodensuites@gmail.com'); // Add a recipient
 
         // Content
         $mail->isHTML(false); // Set email format to HTML

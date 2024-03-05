@@ -627,7 +627,7 @@ pre code {
 }
 
 .row {
-    display: -webkit-box;
+    display: -ms-flexbox;
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
@@ -1407,6 +1407,12 @@ pre code {
         flex: 0 0 41.666667%;
         max-width: 41.666667%
     }
+    .col-lg-55 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 41.666667%;
+        flex: 0 0 41.666667%;
+        max-width: 60%
+    }
     .col-lg-6 {
         -webkit-box-flex: 0;
         -ms-flex: 0 0 50%;
@@ -1607,7 +1613,13 @@ pre code {
         -ms-flex: 0 0 41.666667%;
         flex: 0 0 41.666667%;
         max-width: 41.666667%
-    }*/
+    }
+    .col-xl-55 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 41.666667%;
+        flex: 0 0 41.666667%;
+        max-width: 60%
+    }
     .col-xl-6 {
         -webkit-box-flex: 0;
         -ms-flex: 0 0 50%;
