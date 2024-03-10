@@ -7,6 +7,17 @@
     <title>Wooden Suites</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+    crossorigin=""/>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+     integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+     crossorigin=""></script>
+
+     <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
 
     <!-- <link rel="manifest" href="site.webmanifest"> -->
     <link rel="shortcut icon" type="image/x-icon" href="img/WS01 favicon.png">
@@ -32,6 +43,51 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="flag-icons.min.css">
     <!-- <link rel="stylesheet" href="css/responsive.css"> -->
+
+    <style>
+
+        .contact_container{
+            max-width: 1000px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .contact_container h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .contact_container label {
+            font-weight: bold;
+        }
+        .contact_container input[type="text"],
+        .contact_container input[type="email"],
+        .contact_container textarea {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        .contact_container textarea {
+            height: 100px;
+            resize: vertical;
+        }
+        .contact_container input[type="submit"] {
+            background-color: #009DFF;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            width: 100%;
+        }
+        .contact_container input[type="submit"]:hover {
+            background-color: black;
+        }
+    </style>
 </head>
 
 <body>
@@ -69,7 +125,7 @@
                                         <li><a href="rooms.html">Rooms</a>
                                         </li></li>
                                         <li><a class="active" href="about.html">About Us</a></li>
-                                        <li><a href="contact.html">Contact</a></li>
+                                        <li><a href="https://us12.list-manage.com/contact-form?u=e3fffdd8fd8ca524c80fae89c&form_id=c3c7c008e2e19f453cd32ef742908319">Contact</a></li>
                                     </ul>
                                 </nav>
                             </div>
@@ -126,10 +182,9 @@
     <!-- bradcam_area_end -->
 
     <!-- about_area_start -->
-    <div class="about_us_area">
+    <div class="contact_container">
         <div class="container">
             <div class="row">
-                <!--<div class="col-xl-5 col-lg-5">-->
                     <div class="about_us_info">
                         <div class="section_title mb-20px">
                             <span>About Us</span>
@@ -149,11 +204,18 @@
                                 
                                 Experience the epitome of hospitality at Wooden Suites. We invite you to discover the magic of Thessaloniki and create memories that will last a lifetime. Welcome to your home away from home.</p> 
                         
-                    </div>
-                </div>
-            </div>
+                            <div class="about_us_area"></div> 
+    
+                            <div class="d-none d-sm-block mb-5 pb-4">
+                                <div class="map_contact" id="map" tabindex="0" style="position: relative; height:400px; outline-style: none;"></div>
+                            </div>
+                    </div>            
+            </div> 
         </div>
     </div>
+
+
+
     <!-- about_area_end -->
 
 
@@ -234,7 +296,7 @@
                             <p class="footer_text">
                                 thewoodensuites@gmail.com</p> 
                             </a>
-                            <a href="https://www.booking.com/index.el.html?aid=397594&label=gog235jc-1DCAEoggI46AdIM1gDaFyIAQGYAQi4ARfIAQzYAQPoAQGIAgGoAgO4ApfrhqgGwAIB0gIkMTVjOTg5NWQtM2FmOC00NzNmLWJhY2YtODVkZDA5MTg3OGEw2AIE4AIB&sid=a9cd609aa94662deb963e16efb634dbb&keep_landing=1&sb_price_type=total&">
+                            <a href="Booking.html">
                             <p class="footer_text">
                                 www.Booking.com</p> 
                             </a>
@@ -249,8 +311,6 @@
                                 <li><a href="https://www.google.com/maps/place/Vyzantiou+17,+Thessaloniki+546+40/@40.6169256,22.9553766,17z/data=!3m1!4b1!4m6!3m5!1s0x14a838e16791f211:0xb4895757b56b148c!8m2!3d40.6169216!4d22.9579515!16s%2Fg%2F11qqpnlp17?authuser=0&entry=ttu" class="line-button">Oak Suite</a></li>
                                 <li><a href="https://www.google.com/maps/place/Vyzantiou+17,+Thessaloniki+546+40/@40.6169256,22.9553766,17z/data=!3m1!4b1!4m6!3m5!1s0x14a838e16791f211:0xb4895757b56b148c!8m2!3d40.6169216!4d22.9579515!16s%2Fg%2F11qqpnlp17?authuser=0&entry=ttu" class="line-button">Aspen Suite</a></li>
                                 <li><a href="https://www.google.com/maps/place/Chimarras+5,+Thessaloniki+546+44/@40.6090615,22.9649204,17z/data=!3m1!4b1!4m6!3m5!1s0x14a838dd2ed338c1:0x372c413d626efddd!8m2!3d40.6090615!4d22.9649204!16s%2Fg%2F11lm1c3rh5?entry=ttu" class="line-button">Redwood Suite</a></li>
-                               <!-- <li><a href="https://www.google.com/maps/place/Mantinias+13,+Thessaloniki+546+42/@40.6091473,22.9612272,17z/data=!3m1!4b1!4m6!3m5!1s0x14a838dc490a7981:0x7629e79a611ba8cb!8m2!3d40.6091473!4d22.9612272!16s%2Fg%2F11c21qx5z4?entry=ttu" class="line-button">Bamboo Suite</a></li>
-                                <li><a href="https://www.google.com/maps/place/Mantinias+13,+Thessaloniki+546+42/@40.6091473,22.9612272,17z/data=!3m1!4b1!4m6!3m5!1s0x14a838dc490a7981:0x7629e79a611ba8cb!8m2!3d40.6091473!4d22.9612272!16s%2Fg%2F11c21qx5z4?entry=ttu" class="line-button">Olive Suite</a></li> -->
                             </ul>
                         </div>
                     </div>
@@ -259,12 +319,19 @@
                             <h3 class="footer_title">
                                 Newsletter
                             </h3>
-                            <form action="#" class="newsletter_form">
-                                <input type="text" placeholder="Enter your mail">
-                                <button type="submit">Sign Up</button>
+                            <form action="https://github.us12.list-manage.com/subscribe/post?u=e3fffdd8fd8ca524c80fae89c&amp;id=09923be98f&amp;f_id=008052e0f0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="newsletter_form" target="_self" novalidate="">
+                                <input type="email" name="EMAIL" class="required email" id="mce-EMAIL" required="" value="" placeholder="Enter your mail">
+                                <div id="mce-responses" class="clear foot">
+                                    <div class="response" id="mce-error-response" style="display: none;"></div>
+                                    <div class="response" id="mce-success-response" style="display: none;"></div>
+                                </div>
+                                <div aria-hidden="true" style="position: absolute; left: -5000px;">
+                                    <input type="text" name="b_e3fffdd8fd8ca524c80fae89c_09923be98f" tabindex="-1" value="">
+                                </div>
+                                <button type="submit" name="subscribe" id="mc-embedded-subscribe" class="button" value="Subscribe">Sign Up</button>
                             </form>
                             <p class="newsletter_text">Subscribe newsletter to get updates</p>
-                        </div>
+                        </div>  
                     </div>
                 </div>
             </div>
@@ -398,6 +465,66 @@ Wooden Suites &copy;<script>document.write(new Date().getFullYear());</script> A
 
         });
     </script>
+                        <script>
+                          
+                            var map = L.map('map').setView([40.616959783830126, 22.957947077521727], 13);
+
+                            L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                             maxZoom: 19,
+                             attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+                            }).addTo(map);
+
+                            navigator.geolocation.watchPosition(success, error);
+
+                            function success(pos)
+                        {
+                                const lat = pos.coords.latitude;
+                                const lng = pos.coords.longtitude;
+                                const accuracy= pos.coords.accuracy;
+                            
+
+                            let marker = L.marker([lat, lng]).addTo(map);
+                            let circle = L.circle([lat, lng], {radius: accuracy}).addTo(map);
+
+                            map.fitBounds(circle.getBounds());
+                        }
+                        function error(err)
+                        {
+                            if (err.code===1){
+                                alert("Please allow Location access.")
+                            } else{
+                                alert("Cannot get current location.")
+                            }
+                        }
+                        
+                        /*(βυζαντίου 17, Θεσσαλονίκη 54640)*/
+                        var marker = L.marker([40.617080408678405,22.957919313412123]).addTo(map);
+                        /*(χειμάρρας 5, Θεσσαλονίκη 54644)*/
+                        var marker = L.marker([40.60922847235402, 22.96489894227309]).addTo(map);
+                        </script>
+
+                        <script>
+                            map.locate({setView: true, maxZoom: 16});
+                            
+                            function onLocationFound(e) {
+                            var radius = e.accuracy;
+
+                            L.marker(e.latlng).addTo(map)
+                                .bindPopup("You are within " + radius + " meters from this point").openPopup();
+
+                            L.circle(e.latlng, radius).addTo(map);
+                            }
+
+                            map.on('locationfound', onLocationFound);
+
+                            function onLocationError(e)
+                            {
+                                alert(e.message);
+                            }
+
+                            map.on('locationerror', onLocationError);
+                        </script>
+
 
 
 </body>
